@@ -6,5 +6,6 @@ print(my_sentence)
 # three_year_later = my_age +3
 # print(three_year_later)
 #my_age += 3
-new_age=int(my_age)+3
-print("after 3 years i am now {} years old".format(new_age))
+year = input("enter years")
+new_age=int(my_age)+ int(year)
+print("after {} years i am now {} years old".format(year,new_age))
